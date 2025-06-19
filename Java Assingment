@@ -1,0 +1,29 @@
+public class DataTypeDemo {
+    public static void main(String[] args) {
+        // Integer types
+        int kilometers = 42;
+        long secondsInDay = 24L * 60 * 60;
+
+        // Floating-point types
+        double miles = kilometers * 0.621371;  // converting km to miles
+        float feet = kilometers * 3280.84f;    // converting km to feet
+
+        // Boolean type
+        boolean isMarathon = (kilometers >= 42);
+
+        // Character type
+        char grade = (miles >= 26.2) ? 'A' : 'B';
+
+        // String (non-primitive)
+        String report = "Conversion Report";
+
+        // Output results
+        System.out.println(report);
+        System.out.println("Kilometers: " + kilometers);
+        System.out.println("Miles: " + miles);
+        System.out.println("Feet: " + feet);
+        System.out.println("Seconds in a day: " + secondsInDay);
+        System.out.println("Is marathon distance or more? " + isMarathon);
+        System.out.println("Grade: " + grade);
+    }
+}
