@@ -1,0 +1,14 @@
+// This Java program simulates filling a tank using a while loop
+public class TankFiller {
+
+    public static void main(String[] args) {
+        int filledUnits = 0;      // Tracks how many units are filled
+        int maxCapacity = 5;      // Total capacity to be filled
+
+        // Filling until the tank reaches its max capacity
+        while (filledUnits < maxCapacity) {
+            filledUnits++;
+            System.out.println("Filled unit " + filledUnits);
+        }
+    }
+}
