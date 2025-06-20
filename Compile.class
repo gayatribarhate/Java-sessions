@@ -1,0 +1,26 @@
+class MathUtils {
+    // Overloaded add methods
+    int add(int a, int b) {
+        return a + b;
+    }
+
+    double add(double a, double b) {
+        return a + b;
+    }
+
+    int add(int a, int b, int c) {
+        return a + b + c;
+    }
+}
+
+public class Compile {
+    public static void main(String[] args) {
+        MathUtils mu = new MathUtils();
+        int a = 50;
+        int b = 20;
+
+        System.out.println(mu.add(a, b));            // 70
+        System.out.println(mu.add(4.5, 5.5));        // 10.0
+        System.out.println(mu.add(a, b, 30));        // 100
+    }
+}
