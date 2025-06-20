@@ -1,0 +1,27 @@
+// This Java program uses switch-case to display a message based on the student's class
+public class ClassLevelMessage {
+
+    public static void main(String[] args) {
+        int classLevel = 10; // Change this number to test other classes
+
+        switch (classLevel) {
+            case 1:
+                System.out.println("Class 1 - Welcome to primary school!");
+                break;
+            case 5:
+                System.out.println("Class 5 - You're halfway through primary school!");
+                break;
+            case 8:
+                System.out.println("Class 8 - Prepare for board basics.");
+                break;
+            case 10:
+                System.out.println("Class 10 - Board exam year, study well!");
+                break;
+            case 12:
+                System.out.println("Class 12 - Final school year, choose your career path!");
+                break;
+            default:
+                System.out.println("General Class - Keep learning and growing!");
+        }
+    }
+}
