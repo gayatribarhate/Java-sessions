@@ -1,0 +1,14 @@
+// This Java program uses a while loop to simulate filling a container
+public class WaterFiller {
+
+    public static void main(String[] args) {
+        int currentLevel = 0;       // Current level of water filled
+        int maxLevel = 5;           // Maximum level the container can hold
+
+        // Keep filling the container until it reaches the maximum level
+        while (currentLevel < maxLevel) {
+            currentLevel++;
+            System.out.println("Filled unit " + currentLevel);
+        }
+    }
+}
