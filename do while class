@@ -1,0 +1,10 @@
+// This is a simple Java program to print a message
+public class Hello {
+
+    // main() method is the entry point of the program
+    public static void main(String[] args) {
+
+        // Displaying the message on the screen
+        System.out.println("Hello all of you, I am Java");
+    }
+}
